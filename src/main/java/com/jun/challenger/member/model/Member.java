@@ -1,13 +1,9 @@
 package com.jun.challenger.member.model;
 
 import com.jun.challenger.base.model.BaseTimeEntity;
-import com.jun.challenger.challenge.model.Challenge;
-import com.jun.challenger.challenge.model.Challenging;
+import com.jun.challenger.challengeMember.model.Challenging;
 import com.jun.challenger.member.dto.SignUpRequestDTO;
-import lombok.AccessLevel;
-import lombok.Builder;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
+import lombok.*;
 
 import javax.persistence.*;
 import java.util.ArrayList;
@@ -15,6 +11,7 @@ import java.util.List;
 
 @Entity
 @Getter
+@ToString
 @NoArgsConstructor(access = AccessLevel.PROTECTED)
 public class Member extends BaseTimeEntity {
 

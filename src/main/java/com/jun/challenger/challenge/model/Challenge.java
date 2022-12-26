@@ -1,7 +1,7 @@
 package com.jun.challenger.challenge.model;
 
 import com.jun.challenger.base.model.BaseTimeEntity;
-import com.jun.challenger.member.model.Member;
+import com.jun.challenger.challengeMember.model.Challenging;
 import lombok.AccessLevel;
 import lombok.Builder;
 import lombok.Getter;

@@ -1,5 +1,6 @@
-package com.jun.challenger.challenge.model;
+package com.jun.challenger.challengeMember.model;
 
+import com.jun.challenger.challenge.model.Challenge;
 import com.jun.challenger.member.model.Member;
 import lombok.AccessLevel;
 import lombok.Builder;
@@ -7,6 +8,8 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
+import java.util.ArrayList;
+import java.util.List;
 
 @Entity
 @Getter
